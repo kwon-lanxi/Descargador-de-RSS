@@ -82,14 +82,89 @@ async function hacer_request(bases_url, url_final) {
 
 
 /*------- Twitter -------*/
-async function descargar_twitter(url, opciones) {
-    const [json_base, titulo] = await hacer_request(opciones, url); 
-    if ("delirius-twitter-v2" == titulo) {
-        const miniatura = json_base.datos.data.media[0].cover
-        video.src = json_base.datos.data.media[0].videos[2].url;
-        titulo_video.textContent = json_base.datos.data[0].title;
-        descripcion_texto.textContent = json_base.datos.data.description;
+async function obtenerDatosTwitter(urlTwitter, listaDeFuentes) {
+    // Iterar sobre cada API hasta obtener una respuesta válida
+    for (const [nombre, baseUrl] of Object.entries(listaDeFuentes)) {
+        try {
+            const response = await fetch(`${baseUrl}${encodeURIComponent(urlTwitter)}`);
+            if (!response.ok) throw new Error(`API ${nombre} falló`);
+            const data = await response.json();
+
+            // Normalizar los datos y seleccionar la máxima calidad
+            let title, description, date, duration, download_url;
+
+            switch (nombre) {
+                case "delirius-twitter-v2":
+                    const videoInfoV2 = data.datos.data;
+                    const mediaV2 = videoInfoV2.media[0];
+                    // Seleccionar el video con el bitrate más alto (máxima calidad)
+                    const bestVideoV2 = mediaV2.videos.reduce((prev, current) => 
+                        (prev.bitrate > current.bitrate) ? prev : current);
+                    title = videoInfoV2.description.substring(0, 50) + "...";
+                    description = videoInfoV2.description;
+                    date = videoInfoV2.createdAt;
+                    duration = mediaV2.duration;
+                    download_url = bestVideoV2.url;
+                    break;
+
+                case "delirius-twitter-dl":
+                    const infoDl = data.datos.info;
+                    const mediaDl = data.datos.media[0];
+                    title = infoDl.text.substring(0, 50) + "...";
+                    description = infoDl.text;
+                    date = infoDl.date;
+                    duration = "Desconocida";
+                    // Usar la única URL proporcionada (asumida como máxima calidad)
+                    download_url = mediaDl.url;
+                    break;
+
+                case "siputzx-twitter":
+                    const videoDataSiputzx = data.datos.data;
+                    title = videoDataSiputzx.videoDescription.substring(0, 50) + "...";
+                    description = videoDataSiputzx.videoDescription;
+                    date = "Desconocida";
+                    duration = "Desconocida";
+                    // Usar el enlace de descarga proporcionado (asumido como máxima calidad)
+                    download_url = videoDataSiputzx.downloadLink;
+                    break;
+
+                case "agatz-twitter":
+                    const videoDataAgatz = data.datos.data;
+                    title = videoDataAgatz.desc.substring(0, 50) + "...";
+                    description = videoDataAgatz.desc;
+                    date = "Desconocida";
+                    duration = "Desconocida";
+                    // Seleccionar video_hd (máxima calidad) si existe, sino video_sd
+                    download_url = videoDataAgatz.video_hd || videoDataAgatz.video_sd;
+                    break;
+
+                case "vapis-twitter":
+                    const videoDataVapis = data.datos.data;
+                    title = videoDataVapis.desc.substring(0, 50) + "...";
+                    description = videoDataVapis.desc;
+                    date = "Desconocida";
+                    duration = "Desconocida";
+                    // Seleccionar video_hd (máxima calidad) si existe, sino video_sd
+                    download_url = videoDataVapis.video_hd || videoDataVapis.video_sd;
+                    break;
+
+                default:
+                    throw new Error(`API desconocida: ${nombre}`);
+            }
+
+            // Devolver los datos normalizados con la URL de máxima calidad
+            return {
+                title,
+                description,
+                date,
+                duration,
+                download_url
+            };
+        } catch (error) {
+            console.log(`Error con ${nombre}: ${error.message}`);
+        }
     }
+    throw new Error("Ninguna API disponible respondió correctamente");
 }
 
 
