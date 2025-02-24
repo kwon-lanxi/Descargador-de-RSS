@@ -87,10 +87,79 @@ video {
 }
 
 #descargar {
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#descargar:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+}
+
+#descargar:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 10px rgba(76, 175, 80, 0.2);
 }
 
 #opciones-descarga {
-    padding: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    appearance: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#opciones-descarga:hover {
+    border-color: #4a90e2;
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.2);
+}
+
+#opciones-descarga:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+#opciones-descarga option {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+#opciones-descarga option:hover {
+    background-color: #f5f5f5;
+}
+
+#url-rss {
+    width: 97%;
+    padding: 12px;
+    margin-top: 15px;
+    border: 2px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    background-color: #ffffff;
+}
+
+#url-rss:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+        
+#url-rss:hover {
+    border-color: #4a90e2;
 }

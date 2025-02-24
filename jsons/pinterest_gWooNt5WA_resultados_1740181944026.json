@@ -15,7 +15,11 @@
     }
   },
   "https://api.agatz.xyz/api/pinterest?url=": {
-    "exito": false,
-    "error": "Código de estado 504"
+    "status": 200,
+    "creator": "Agat",
+    "data": {
+      "url": "https://pin.it/7tmI7wDgm",
+      "result": "https://v1.pinimg.com/videos/mc/720p/06/c4/0f/06c40fe421cf6d52f0a58f33c36c1c83.mp4"
+    }
   }
 }

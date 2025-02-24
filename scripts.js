@@ -6,6 +6,7 @@ const fecha = document.getElementById('fecha');
 const duracion = document.getElementById('duracion');
 const boton_descargar = document.getElementById('descargar');
 const opciones_de_descarga = document.getElementById('opciones-descarga');
+const url = document.getElementById('url-rss');
 
 
 /*----- Fuentes y diccionarios -----*/
@@ -82,100 +83,133 @@ async function hacer_request(bases_url, url_final) {
 
 
 /*------- Twitter -------*/
-async function obtenerDatosTwitter(urlTwitter, listaDeFuentes) {
-    // Iterar sobre cada API hasta obtener una respuesta válida
-    for (const [nombre, baseUrl] of Object.entries(listaDeFuentes)) {
-        try {
-            const response = await fetch(`${baseUrl}${encodeURIComponent(urlTwitter)}`);
-            if (!response.ok) throw new Error(`API ${nombre} falló`);
-            const data = await response.json();
+async function obtenerDatosTwitter(urlTwitter) {
+    try {
+        // Llamar a hacer_request para obtener datos de la primera API que funcione
+        const { titulo, datos } = await hacer_request(fuentes_Twitter, urlTwitter);
+        console.log(`Datos obtenidos de ${titulo}`);
 
-            // Normalizar los datos y seleccionar la máxima calidad
-            let title, description, date, duration, download_url;
+        let datosGenerales = datos.datos.data; 
 
-            switch (nombre) {
-                case "delirius-twitter-v2":
-                    const videoInfoV2 = data.datos.data;
-                    const mediaV2 = videoInfoV2.media[0];
-                    // Seleccionar el video con el bitrate más alto (máxima calidad)
-                    const bestVideoV2 = mediaV2.videos.reduce((prev, current) => 
-                        (prev.bitrate > current.bitrate) ? prev : current);
-                    title = videoInfoV2.description.substring(0, 50) + "...";
-                    description = videoInfoV2.description;
-                    date = videoInfoV2.createdAt;
-                    duration = mediaV2.duration;
-                    download_url = bestVideoV2.url;
-                    break;
+        let title, description, date, duration, download_url;
 
-                case "delirius-twitter-dl":
-                    const infoDl = data.datos.info;
-                    const mediaDl = data.datos.media[0];
-                    title = infoDl.text.substring(0, 50) + "...";
-                    description = infoDl.text;
-                    date = infoDl.date;
-                    duration = "Desconocida";
-                    // Usar la única URL proporcionada (asumida como máxima calidad)
-                    download_url = mediaDl.url;
-                    break;
+        // normalizar los datos
+        switch (titulo) {
+            case "delirius-twitter-v2":
+                const mediaV2 = datosGenerales.media[0];
+                const bestVideoV2 = mediaV2.videos.reduce((prev, current) => 
+                    (prev.bitrate > current.bitrate) ? prev : current);
+                title = datosGenerales.description
+                description = datosGenerales.description;
+                date = datosGenerales.createdAt;
+                duration = mediaV2.duration;
+                download_url = bestVideoV2.url;
+                break;
 
-                case "siputzx-twitter":
-                    const videoDataSiputzx = data.datos.data;
-                    title = videoDataSiputzx.videoDescription.substring(0, 50) + "...";
-                    description = videoDataSiputzx.videoDescription;
-                    date = "Desconocida";
-                    duration = "Desconocida";
-                    // Usar el enlace de descarga proporcionado (asumido como máxima calidad)
-                    download_url = videoDataSiputzx.downloadLink;
-                    break;
+            case "delirius-twitter-dl":
+                const mediaDl = datosGenerales.datos.media[0];
+                title = datosGenerales.text
+                description = datosGenerales.text;
+                date = datosGenerales.date;
+                duration = "Desconocida";
+                download_url = mediaDl.url;
+                break;
 
-                case "agatz-twitter":
-                    const videoDataAgatz = data.datos.data;
-                    title = videoDataAgatz.desc.substring(0, 50) + "...";
-                    description = videoDataAgatz.desc;
-                    date = "Desconocida";
-                    duration = "Desconocida";
-                    // Seleccionar video_hd (máxima calidad) si existe, sino video_sd
-                    download_url = videoDataAgatz.video_hd || videoDataAgatz.video_sd;
-                    break;
+            case "siputzx-twitter":
+                title = datosGenerales.videoDescription
+                description = datosGenerales.videoDescription;
+                date = "Desconocida";
+                duration = "Desconocida";
+                download_url = datosGenerales.downloadLink;
+                break;
 
-                case "vapis-twitter":
-                    const videoDataVapis = data.datos.data;
-                    title = videoDataVapis.desc.substring(0, 50) + "...";
-                    description = videoDataVapis.desc;
-                    date = "Desconocida";
-                    duration = "Desconocida";
-                    // Seleccionar video_hd (máxima calidad) si existe, sino video_sd
-                    download_url = videoDataVapis.video_hd || videoDataVapis.video_sd;
-                    break;
+            case "agatz-twitter":
+            case "vapis-twitter":
+                title = datosGenerales.desc
+                description = datosGenerales.desc;
+                date = "Desconocida";
+                duration = "Desconocida";
+                download_url = datosGenerales.video_hd || datosGenerales.video_sd;
+                break;
 
-                default:
-                    throw new Error(`API desconocida: ${nombre}`);
-            }
-
-            // Devolver los datos normalizados con la URL de máxima calidad
-            return {
-                title,
-                description,
-                date,
-                duration,
-                download_url
-            };
-        } catch (error) {
-            console.log(`Error con ${nombre}: ${error.message}`);
-        }
+            default:
+                throw new Error(`API desconocida: ${titulo}`);
+        }   
+        // Devolver los datos normalizados
+        return {
+            title,
+            description,
+            date,
+            duration,
+            download_url
+        };
+    } catch (error) {
+        console.error("Error al obtener datos de Twitter:", error.message);
+        throw error;
     }
-    throw new Error("Ninguna API disponible respondió correctamente");
 }
 
-
+async function obtenerDatosPinterest(urlPinterest) {
+    const { titulo, datos } = await hacer_request(fuentes_Pinterest, urlPinterest);
+    console.log(`Datos obtenidos de ${titulo}`);
+    let title, description, date, duration, download_url, thumbnail
+    const data = datos.datos.data;
+    
+    // normalizar los datos
+    switch (titulo) {
+        case "delirius-pinterest-dl":
+            title = data.title || "Sin título";
+            description = data.description || "Sin descripción";
+            date = data.upload || "Desconocida";
+            thumbnail = data.thumbnail || "";
+            download_url = data.download?.url || "";
+            duration = "Desconocida";
+            break;
+            
+        case "siputzx-pinterest":
+            title = "Pin " + data.id;
+            description = "Sin descripción disponible";
+            date = data.created_at || "Desconocida";
+            thumbnail = data.url || "";
+            download_url = data.url || "";
+            duration = "Desconocida";
+            break;
+            
+        case "agatz-pinterest":
+            throw new Error("API agatz-pinterest no disponible actualmente");
+            
+        default:
+            throw new Error(`API desconocida: ${titulo}`);
+    }
+    
+    return {
+        title,
+        description,
+        date,
+        duration,
+        download_url,
+        thumbnail
+    };
+}
 
 /* ------- descragas generales -------*/
 function descargar_videos(opciones) {
     let plataformas = ["Twitter", "Pinterest", "Threads", "Facebook", "Instagram", "TikTok"];
     const opcion = plataformas.find(opcion => opcion === opciones);
+    
+    switch (opcion) {
+        case "Twitter":
+            const urlTwitter = document.getElementById('url').value;
+            if (urlTwitter) {
+                obtenerDatosTwitter(urlTwitter)
+                    .then(({ title, description, date, duration, download_url }) => {
+                        titulo_video.textContent = title;
+                        descripcion_texto.textContent = description;
+                        fecha.textContent = date;
+                        duracion.textContent = duration;
+                        video.src = download_url;
+                        boton_descargar.style.display = "block";
+                        opciones_de_descarga.style.display = "none";
+                    })
 
-    if (opcion) {
-
-    }
-}
-
+}}}
