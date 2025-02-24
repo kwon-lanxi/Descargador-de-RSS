@@ -1,0 +1,34 @@
+{
+  "https://delirius-apiofc.vercel.app/download/threads?url=": {
+    "exito": true,
+    "datos": {
+      "creator": "darlingg",
+      "status": true,
+      "data": [
+        {
+          "type": "video",
+          "url": "https://cdn.threadsphotodownloader.com/scontent-lga3-2.cdninstagram.com/o1/v/t16/f2/m84/AQNcggoPpeWpRK-s1Ib8dv-1NZVtzoimEcFmaFs8c_uanMSxj9AQ-x31pLtxlJvazIV_ZFDBwjFfYnItDV8DTb0e8XIT4mT4ML6H3RY.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLmZlZWQudW5rbm93bi1DMi43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=102&vs=2406770336338246_3861420267&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC85MzQ0MUU0RDMzODJGQTIyNjAwOEVDM0Q0MzdEODVCRV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dIek1VaHpnODdfTHA4WUJBRDFFNnE5dkpTVlRia1lMQUFBRhUCAsgBACgAGAAbAYgHdXNlX29pbAExFQAAJvyO7K6w%2Bf1AFQIoAkMzLBdAKUQYk3S8ahgSZGFzaF9iYXNlbGluZV8xX3YxEQB16gcA&ccb=9-4&oh=00_AYDzpr2H0T-N4PYcmOppdOu2cf3LjCWTzwNHWvXLIlikRA&oe=67BAF0EA&_nc_sid=1d576d"
+        }
+      ]
+    }
+  },
+  "https://api.agatz.xyz/api/threads?url=": {
+    "exito": true,
+    "datos": {
+      "status": 200,
+      "creator": "Agat",
+      "data": {
+        "image_urls": [],
+        "video_urls": [
+          {
+            "download_url": "https://cdn.threadsphotodownloader.com/scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m84/AQNcggoPpeWpRK-s1Ib8dv-1NZVtzoimEcFmaFs8c_uanMSxj9AQ-x31pLtxlJvazIV_ZFDBwjFfYnItDV8DTb0e8XIT4mT4ML6H3RY.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLmZlZWQudW5rbm93bi1DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=102&vs=2406770336338246_3861420267&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC85MzQ0MUU0RDMzODJGQTIyNjAwOEVDM0Q0MzdEODVCRV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dIek1VaHpnODdfTHA4WUJBRDFFNnE5dkpTVlRia1lMQUFBRhUCAsgBACgAGAAbAYgHdXNlX29pbAExFQAAJvyO7K6w%2Bf1AFQIoAkMzLBdAKUQYk3S8ahgSZGFzaF9iYXNlbGluZV8xX3YxEQB16gcA&ccb=9-4&oh=00_AYAUgj37G-lQIakWKW8IeQsSgBC-pzjgZ0pfwqALdOQ7EA&oe=67BAF0EA&_nc_sid=1d576d"
+          }
+        ]
+      }
+    }
+  },
+  "https://vapis.my.id/api/threads?url=": {
+    "exito": false,
+    "error": "Código de estado 500"
+  }
+}

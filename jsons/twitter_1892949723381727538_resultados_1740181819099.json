@@ -1,0 +1,130 @@
+{
+  "https://delirius-apiofc.vercel.app/download/twitterv2?url=": {
+    "exito": true,
+    "datos": {
+      "creator": "darlingg",
+      "status": true,
+      "data": {
+        "id": "1892949723381727538",
+        "createdAt": "2/21/2025",
+        "description": "This edit ate so hard https://t.co/Ptm1PBsowm",
+        "languange": "en",
+        "possiblySensitive": false,
+        "possiblySensitiveEditable": true,
+        "media_count": "1",
+        "replie": "1",
+        "retweet": "397",
+        "favorite": "1.399",
+        "view": "9.908",
+        "author": {
+          "username": "JxshualuvEr",
+          "bio": "C𝐚𝐫𝐚𝐭𝐢𝐟𝐞𝐝¹³",
+          "verified": false,
+          "location": "",
+          "profile_banner": "https://pbs.twimg.com/profile_banners/1834676693979594752/1740180398",
+          "profile_image": "https://pbs.twimg.com/profile_images/1893080584500523008/FgIO6E3I_normal.jpg",
+          "url": "https://twitter.com/JxshualuvEr",
+          "favorite": "6.278",
+          "followers": "163",
+          "friends": "212",
+          "statuses": "2.585",
+          "listed_ount": "1",
+          "media_count": "730"
+        },
+        "media": [
+          {
+            "type": "video",
+            "cover": "https://pbs.twimg.com/ext_tw_video_thumb/1892949683628101632/pu/img/8vadLzRq0GzQG4jQ.jpg",
+            "duration": "0:17",
+            "videos": [
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "quality": "480x270",
+                "url": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/480x270/uu0a8SVAGuTBR4BM.mp4?tag=12"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "quality": "640x360",
+                "url": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/640x360/mL82dzCrsike8oeV.mp4?tag=12"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "quality": "1024x576",
+                "url": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/1024x576/H01idkJDqBYcUWaC.mp4?tag=12"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "https://delirius-apiofc.vercel.app/download/twitterdl?url=": {
+    "exito": true,
+    "datos": {
+      "found": true,
+      "type": "video",
+      "media": [
+        {
+          "url": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/1024x576/H01idkJDqBYcUWaC.mp4"
+        }
+      ],
+      "info": {
+        "text": "This edit ate so hard",
+        "tweetURL": null,
+        "conversationID": "1892949723381727538",
+        "date": "Fri Feb 21 14:49:18 +0000 2025",
+        "hashtags": [],
+        "likes": 1399,
+        "possibly_sensitive": false,
+        "replies": 1,
+        "retweets": 397,
+        "id": "1892949723381727538",
+        "user_name": "𝐴𝑢𝑟𝑜𝑟𝑎",
+        "user_profile_image_url": "https://pbs.twimg.com/profile_images/1893080584500523008/FgIO6E3I_normal.jpg",
+        "user_screen_name": "JxshualuvEr"
+      }
+    }
+  },
+  "https://api.siputzx.my.id/api/d/twitter?url=": {
+    "exito": true,
+    "datos": {
+      "status": true,
+      "data": {
+        "imgUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1892949683628101632/pu/img/8vadLzRq0GzQG4jQ.jpg?name=orig",
+        "downloadLink": "https://snaptwitter.com/download?token=aHR0cHM6Ly92aWRlby50d2ltZy5jb20vZXh0X3R3X3ZpZGVvLzE4OTI5NDk2ODM2MjgxMDE2MzIvcHUvdmlkL2F2YzEvMTAyNHg1NzYvSDAxaWRrSkRxQlljVVdhQy5tcDQ/dGFnPTEy",
+        "videoTitle": "",
+        "videoDescription": "This edit ate so hard https://t.co/Ptm1PBsowm"
+      }
+    }
+  },
+  "https://api.agatz.xyz/api/twitter?url=": {
+    "exito": true,
+    "datos": {
+      "status": 200,
+      "creator": "Agat",
+      "data": {
+        "desc": "This edit ate so hard https://t.co/Ptm1PBsowm",
+        "thumb": "https://pbs.twimg.com/ext_tw_video_thumb/1892949683628101632/pu/img/8vadLzRq0GzQG4jQ.jpg",
+        "video_sd": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/640x360/mL82dzCrsike8oeV.mp4?tag=12",
+        "video_hd": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/1024x576/H01idkJDqBYcUWaC.mp4?tag=12",
+        "audio": "https://twdown.net/https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/480x270/uu0a8SVAGuTBR4BM.mp4?tag=12"
+      }
+    }
+  },
+  "https://vapis.my.id/api/twitter?url=": {
+    "exito": true,
+    "datos": {
+      "status": true,
+      "data": {
+        "desc": "This edit ate so hard https://t.co/Ptm1PBsowm",
+        "thumb": "https://pbs.twimg.com/ext_tw_video_thumb/1892949683628101632/pu/img/8vadLzRq0GzQG4jQ.jpg",
+        "video_sd": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/640x360/mL82dzCrsike8oeV.mp4?tag=12",
+        "video_hd": "https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/1024x576/H01idkJDqBYcUWaC.mp4?tag=12",
+        "audio": "https://twdown.net/https://video.twimg.com/ext_tw_video/1892949683628101632/pu/vid/avc1/480x270/uu0a8SVAGuTBR4BM.mp4?tag=12"
+      }
+    }
+  }
+}

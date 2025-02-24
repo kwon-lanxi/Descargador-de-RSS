@@ -1,0 +1,41 @@
+{
+  "https://delirius-apiofc.vercel.app/download/pinterestdl?url=": {
+    "exito": true,
+    "datos": {
+      "creator": "darlingg",
+      "status": true,
+      "data": {
+        "title": "😨",
+        "description": "Get ready to laugh with these funny dog jokes. Share them with your friends and family for a good time. #funnydog #dogjokes #humor",
+        "comments": 437,
+        "likes": 0,
+        "thumbnail": "https://i.pinimg.com/videos/thumbnails/originals/62/d3/f8/62d3f80c92ba220260d3c491e05a1a29.0000000.jpg",
+        "upload": "4/17/2023",
+        "source": "https://www.pinterest.com/pin/595038169537052300/",
+        "author_name": "Vickatlast",
+        "username": "@vic",
+        "followers": "-",
+        "author_url": "https://www.pinterest.com/Vickatlast/",
+        "download": {
+          "type": "video",
+          "url": "https://v1.pinimg.com/videos/mc/720p/62/d3/f8/62d3f80c92ba220260d3c491e05a1a29.mp4"
+        }
+      }
+    }
+  },
+  "https://api.siputzx.my.id/api/d/pinterest?url=": {
+    "exito": true,
+    "datos": {
+      "status": true,
+      "data": {
+        "id": "595038169537052300",
+        "created_at": "Mon, 17 Apr 2023 19:35:26 +0000",
+        "url": "https://i.pinimg.com/originals/3f/a7/72/3fa772f82e1ea394834f9aca7a207dd6.jpg"
+      }
+    }
+  },
+  "https://api.agatz.xyz/api/pinterest?url=": {
+    "exito": false,
+    "error": "Código de estado 504"
+  }
+}

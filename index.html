@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://i.vgy.me/rfwFnR.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Descargador de RSS</title>
+</head>
+<body>
+    <h1 id="titulo-principal">Descargador de RSS</h1>
+
+    <section class="video-contenedor">
+        <div class="video-reproductor">
+            <video src="https://files.catbox.moe/50giw2.mp4" controls id="video"></video>
+        </div>
+
+        <div class="informacion-contenedor">
+            <h1 id="titulo">Título</h1>
+            <h2 id="descripcion">Descripción</h2>
+            <p id="descripcion-texto">texto de descripción</p>
+        </div>
+
+        <div class="informacion-extra">
+            <spand><h3 id="fecha">fecha: 12/12/2023</h3></spand>
+            <spand><h3 id="duracion">duración: 12:12</h3></spand>
+        </div>
+    </section>
+
+    <div class="botones-contenedor">
+        <button id="descargar">Descargar</button>
+        <label for="opciones-descarga">Opciones de descarga:</label>
+        <select id="opciones-descarga"> 
+            <option value="Twitter">Twitter</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="TikTok">TikTok</option>
+        </select>
+    </div>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>

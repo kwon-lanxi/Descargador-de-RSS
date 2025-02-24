@@ -1,0 +1,21 @@
+{
+  "https://delirius-apiofc.vercel.app/download/pinterestdl?url=": {
+    "exito": false,
+    "error": "Código de estado 500"
+  },
+  "https://api.siputzx.my.id/api/d/pinterest?url=": {
+    "exito": true,
+    "datos": {
+      "status": true,
+      "data": {
+        "id": "88875792641733209",
+        "created_at": "Mon, 09 Dec 2024 22:07:32 +0000",
+        "url": "https://i.pinimg.com/originals/f8/24/1a/f8241a41167822b13a00ebac2e33aedc.jpg"
+      }
+    }
+  },
+  "https://api.agatz.xyz/api/pinterest?url=": {
+    "exito": false,
+    "error": "Código de estado 504"
+  }
+}

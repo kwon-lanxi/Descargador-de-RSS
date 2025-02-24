@@ -1,0 +1,42 @@
+{
+  "https://delirius-apiofc.vercel.app/download/threads?url=": {
+    "exito": true,
+    "datos": {
+      "creator": "darlingg",
+      "status": true,
+      "data": [
+        {
+          "type": "image",
+          "url": "https://cdn.threadsphotodownloader.com/scontent-lga3-1.cdninstagram.com/v/t51.75761-15/480857895_17883095859231476_4094001142862051050_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=1iOvuDg8j2gQ7kNvgEYqpIN&_nc_oc=AdgMTiSmGT26BWp6YKKFnnVmz8XpI-3B3-1q75XAE1zSCiV0YiyeRGwkzs1LVdMXobk&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=A61dYlaWZ5QSFIN3A58n7H2&oh=00_AYB3VVZGpsjfvouRy5JSsyrTucM1pQFHKvTaq4SPCWY0AQ&oe=67BEFBD6"
+        },
+        {
+          "type": "image",
+          "url": "https://cdn.threadsphotodownloader.com/scontent-lga3-1.cdninstagram.com/v/t51.75761-15/481180192_17883095862231476_5601577813341128699_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=PVsKcaMHj8MQ7kNvgHM-HwC&_nc_oc=AdiZmeiul-mkT68sMp9c6NupmW0R07vd1NTt0jfyPzxK0OW7e1B2GJRnfD5H8f3bG2s&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=A61dYlaWZ5QSFIN3A58n7H2&oh=00_AYDs9MbIpidSmqIz0g1s5mB4Gatndr2kMkAYrh9fNp-OWg&oe=67BEF785"
+        },
+        {
+          "type": "image",
+          "url": "https://cdn.threadsphotodownloader.com/scontent-lga3-2.cdninstagram.com/v/t51.75761-15/481021978_17883095871231476_2401672943675998147_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=zgB8bNIVP-oQ7kNvgHix-6A&_nc_oc=AdjZB6uiVHFruOlZkHqRKxXjpyMONrM2ervOz_drWLAFvW6pvqk0OCx8YwTyA7IPS1E&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=A61dYlaWZ5QSFIN3A58n7H2&oh=00_AYB6UUVEq-kZjuHK_6hxLsGXjERjeeBOU3LRjvnA1MZ-Mw&oe=67BEF17D"
+        }
+      ]
+    }
+  },
+  "https://api.agatz.xyz/api/threads?url=": {
+    "exito": true,
+    "datos": {
+      "status": 200,
+      "creator": "Agat",
+      "data": {
+        "image_urls": [
+          "https://cdn.threadsphotodownloader.com/scontent-iad3-2.cdninstagram.com/v/t51.75761-15/480857895_17883095859231476_4094001142862051050_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=1iOvuDg8j2gQ7kNvgHm4ibj&_nc_oc=AdhklmVbukiJr8skIUsZGFSJe7rithb8MvfxJe8EIM8JSfT8odQm0B184Ws5mgvvyxE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=AqReElhU9WBdD1-Jawv-Qbp&oh=00_AYAz80esXEJM0C3qxZRM7d97Alcbd-UpXn8hM0T06SBRqQ&oe=67BEFBD6",
+          "https://cdn.threadsphotodownloader.com/scontent-iad3-1.cdninstagram.com/v/t51.75761-15/481180192_17883095862231476_5601577813341128699_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=PVsKcaMHj8MQ7kNvgEJkmj-&_nc_oc=AdgK00NtElDGyQrvlGGYA0nvLjX1sPDl03q17-y8EjI0Bhxaiaebl5Zpa13i6Uv-_As&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=AqReElhU9WBdD1-Jawv-Qbp&oh=00_AYDlzB09AsmYI7ufWe5mSlvYhVgKmGgc11CnRy9vS-BcOw&oe=67BEF785",
+          "https://cdn.threadsphotodownloader.com/scontent-iad3-2.cdninstagram.com/v/t51.75761-15/481021978_17883095871231476_2401672943675998147_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=zgB8bNIVP-oQ7kNvgFg8Q-N&_nc_oc=Adi1lTdYwKlsEx8yG2PGtEmhkmJdeN2Pwy5oZE3DclUeaklZ0xoGodAC5wXL-inAyic&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=AqReElhU9WBdD1-Jawv-Qbp&oh=00_AYA5lUvkKsXeY55KdnZEcmnImKrpZhTwNlEcZzFYVezxvQ&oe=67BEF17D"
+        ],
+        "video_urls": []
+      }
+    }
+  },
+  "https://vapis.my.id/api/threads?url=": {
+    "exito": false,
+    "error": "Código de estado 500"
+  }
+}

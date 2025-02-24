@@ -1,0 +1,215 @@
+{
+  "https://delirius-apiofc.vercel.app/download/tiktok?url=": {
+    "exito": true,
+    "datos": {
+      "creator": "darlingg",
+      "status": true,
+      "process": 0.8409,
+      "data": {
+        "id": "7465245239595355398",
+        "region": "MX",
+        "title": "AHRE.        #svt            #seventeen      #fyp      #parati       #contenido        #podercerdito❤️        #foryou         #carat ",
+        "duration": 78,
+        "repro": "45.734",
+        "like": "17.142",
+        "share": "528",
+        "comment": "106",
+        "download": "585",
+        "published": "1/29/2025",
+        "author": {
+          "id": "6909931212493702149",
+          "username": "@junsitonub",
+          "nickname": "@   J"
+        },
+        "music": {
+          "title": "original sound - junsitonub",
+          "author": "@   J",
+          "duration": 78
+        },
+        "meta": {
+          "media": [
+            {
+              "type": "video",
+              "size_org": "9.47 MB",
+              "size_wm": "9.70 MB",
+              "size_hd": "45.37 MB",
+              "org": "https://www.tikwm.com/video/media/play/7465245239595355398.mp4",
+              "wm": "https://www.tikwm.com/video/media/wmplay/7465245239595355398.mp4",
+              "hd": "https://www.tikwm.com/video/media/hdplay/7465245239595355398.mp4"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "https://api.siputzx.my.id/api/tiktok?url=": {
+    "exito": true,
+    "datos": {
+      "status": true,
+      "data": {
+        "success": true,
+        "original_url": "https://www.tiktok.com/@junsitonub/video/7465245239595355398?is_from_webapp=1&sender_device=pc",
+        "oembed_url": "https://www.tiktok.com/oembed?url=https://www.tiktok.com/@tiktok/video/7465245239595355398",
+        "type": "video",
+        "urls": [
+          "https://v16m-default.akamaized.net/5d8c553d45905adacbe1a8a9c3badefa/67b965cc/video/tos/useast2a/tos-useast2a-v-0068/osz3bAiIjIDAYSffkEIAtRDPAagFECGeCgLDwM/?a=0&bti=bGRuZHxvMXIxcm53Zm1cYF9ebWFzaHFmOg%3D%3D&ch=0&cr=0&dr=0&er=0&cd=0%7C0%7C0%7C0&cv=1&br=9044&bt=4522&ds=4&ft=aEKpCqT0majPD12SS01J3wUOx5EcMeF~O5&mime_type=video_mp4&qs=13&rc=M2c2d2w5cmt4eDMzNzczM0BpM2c2d2w5cmt4eDMzNzczM0Bsa2ktMmRrLmBgLS1kMTZzYSNsa2ktMmRrLmBgLS1kMTZzcw%3D%3D&vvpl=1&l=202502212349491FAB0539E90C3F50BBA5&btag=e00050000&cc=3",
+          "https://d.rapidcdn.app/d?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3YxNm0tZGVmYXVsdC5ha2FtYWl6ZWQubmV0LzVkOGM1NTNkNDU5MDVhZGFjYmUxYThhOWMzYmFkZWZhLzY3Yjk2NWNjL3ZpZGVvL3Rvcy91c2Vhc3QyYS90b3MtdXNlYXN0MmEtdi0wMDY4L29zejNiQWlJaklEQVlTZmZrRUlBdFJEUEFhZ0ZFQ0dlQ2dMRHdNLz9hPTAmYnRpPWJHUnVaSHh2TVhJeGNtNTNabTFjWUY5ZWJXRnphSEZtT2clM0QlM0QmY2g9MCZjcj0wJmRyPTAmZXI9MCZjZD0wJTdDMCU3QzAlN0MwJmN2PTEmYnI9OTA0NCZidD00NTIyJmRzPTQmZnQ9YUVLcENxVDBtYWpQRDEyU1MwMUozd1VPeDVFY01lRn5PNSZtaW1lX3R5cGU9dmlkZW9fbXA0JnFzPTEzJnJjPU0yYzJkMnc1Y210NGVETXpOemN6TTBCcE0yYzJkMnc1Y210NGVETXpOemN6TTBCc2Eya3RNbVJyTG1CZ0xTMWtNVFp6WVNOc2Eya3RNbVJyTG1CZ0xTMWtNVFp6Y3clM0QlM0QmdnZwbD0xJmw9MjAyNTAyMjEyMzQ5NDkxRkFCMDUzOUU5MEMzRjUwQkJBNSZidGFnPWUwMDA1MDAwMCZjYz0zIiwiZmlsZW5hbWUiOiJTbmFwVGlrX0FwcF83NDY1MjQ1MjM5NTk1MzU1Mzk4LUhELm1wNCIsImhlYWRlcnMiOnsidXNlci1hZ2VudCI6IlRlbGVncmFtQm90IChsaWtlIFR3aXR0ZXJCb3QpIn19.6i0EEbwdTz8TPOj04Quq5hGnPxa0QFjawWsDm5CB9H4&dl=1",
+          "https://d.rapidcdn.app/d?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2FwaS50aWt0b2t2LmNvbS9hd2VtZS92MS9wbGF5Lz9mYWlkPTEyMzMmZmlsZV9pZD02YThmNTNmYmI1YTg0YzExYTdmODdhOGI4YWQxMDMwZiZpc19wbGF5X3VybD0xJml0ZW1faWQ9NzQ2NTI0NTIzOTU5NTM1NTM5OCZsaW5lPTAmc2lnbmF0dXJldjM9ZG1sa1pXOWZhV1E3Wm1sc1pWOXBaRHRwZEdWdFgybGtMamM1WWpGbVlURTNNakl3WXpWbE1qRmhZMlZpTjJVeU5EQTJNRFkxTldNNCZzb3VyY2U9QVdFTUVfREVUQUlMJnZpZGVvX2lkPXYwOTA0NGc0MDAwMGN1Y3UxaG5vZzY1aTB0bDNuZG8wIiwiZmlsZW5hbWUiOiJTbmFwdGlrLmFwcF83NDY1MjQ1MjM5NTk1MzU1Mzk4Lm1wNCIsImhlYWRlcnMiOnsidXNlci1hZ2VudCI6IlRlbGVncmFtQm90IChsaWtlIFR3aXR0ZXJCb3QpIn19.LlCfgV42NRSBk-X_26xbQXLoqp-L0k8WQo_wAXfwRjo&dl=1",
+          "https://pro.snaptik.app/"
+        ]
+      }
+    }
+  },
+  "https://restapi.apibotwa.biz.id/api/tiktok?url=": {
+    "exito": true,
+    "datos": {
+      "status": 200,
+      "creator": "RiooXdzz",
+      "data": {
+        "response": {
+          "title": "AHRE.        #svt            #seventeen      #fyp      #parati       #contenido        #podercerdito❤️        #foryou         #carat ",
+          "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/ooIUZP3IECeQ0gjtkRQAeFECD4D5bMBtDfgGQS~tplv-tiktokx-cropcenter:300:400.jpeg?dr=14579&nonce=5849&refresh_token=bb531e3906466242f793cf7409ebd375&x-expires=1740265200&x-signature=E5iUa3iR0LeEmodVVIHr0%2FCgzhg%3D&idc=maliva&ps=13740610&s=AWEME_DETAIL&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474",
+          "origin_cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/oYQIgfeZ3gzjDAfQARkEAGCS4CMFQhLtPbDD22~tplv-tiktokx-360p.image?dr=14555&nonce=99186&refresh_token=30b913aedb1c2bcf9cd2efe11f1d2e1c&x-expires=1740265200&x-signature=3OA5nqD%2BBnsVRkRh7T1guKf5Jb8%3D&ftpl=1&idc=maliva&ps=13740610&s=AWEME_DETAIL&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474",
+          "no_watermark": "https://v16m-default.akamaized.net/e0839a407e6c3d405c3932434f144047/67b965d5/video/tos/useast2a/tos-useast2a-ve-0068c004/okChjDD4MeefDSzRZDQtSyGEggkFQIP3CIgARb/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&ch=0&cr=0&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C0&cv=1&br=1888&bt=944&cs=0&ds=6&ft=XE5bCqT0majPD12bS01J3wUOx5EcMeF~O5&mime_type=video_mp4&qs=0&rc=aTY0ZGVkOzo0Zjs4ZTZpZEBpM2c2d2w5cmt4eDMzNzczM0AtLWE1NTRjXi4xXl9jMjUzYSNsa2ktMmRrLmBgLS1kMTZzcw%3D%3D&vvpl=1&l=20250221234958BCB9FD27641AFB51EE11&btag=e00090000",
+          "watermark": "https://v16m-default.akamaized.net/d7dec225d234c4a558d7c79d189cedc6/67b965d5/video/tos/useast2a/tos-useast2a-ve-0068c001/oMejZuNACACIfugHIuG3SPRRMgkGb4jg8LAIea/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&ch=0&cr=0&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C0&cv=1&br=1934&bt=967&cs=0&ds=3&ft=XE5bCqT0majPD12bS01J3wUOx5EcMeF~O5&mime_type=video_mp4&qs=0&rc=NDQ7OjU4OjZnOTk3ZTQzZEBpM2c2d2w5cmt4eDMzNzczM0AxYGBhMmIzNjIxYjBfNjIxYSNsa2ktMmRrLmBgLS1kMTZzcw%3D%3D&vvpl=1&l=20250221234958BCB9FD27641AFB51EE11&btag=e00090000",
+          "music": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/7465245289772616453.mp3"
+        }
+      }
+    }
+  },
+  "https://api.agatz.xyz/api/tiktok?url=": {
+    "exito": true,
+    "datos": {
+      "status": 200,
+      "creator": "Agat",
+      "data": {
+        "status": true,
+        "title": "AHRE.        #svt            #seventeen      #fyp      #parati       #contenido        #podercerdito❤️        #foryou         #carat ",
+        "taken_at": "Wednesday, January 21,  at 2:48:57 AM",
+        "region": "MX",
+        "id": "7465245239595355398",
+        "durations": 78,
+        "duration": "78 Seconds",
+        "cover": "https://www.tikwm.com/video/cover/7465245239595355398.webp",
+        "size_wm": 9699135,
+        "size_nowm": 9469484,
+        "size_nowm_hd": 45365609,
+        "data": [
+          {
+            "type": "watermark",
+            "url": "https://www.tikwm.com/video/media/wmplay/7465245239595355398.mp4"
+          },
+          {
+            "type": "nowatermark",
+            "url": "https://www.tikwm.com/video/media/play/7465245239595355398.mp4"
+          },
+          {
+            "type": "nowatermark_hd",
+            "url": "https://www.tikwm.com/video/media/hdplay/7465245239595355398.mp4"
+          }
+        ],
+        "music_info": {
+          "id": "7465245277730966277",
+          "title": "original sound - junsitonub",
+          "author": "@   J",
+          "album": "Unknown",
+          "url": "https://www.tikwm.com/video/music/7465245239595355398.mp3"
+        },
+        "stats": {
+          "views": "45.734",
+          "likes": "17.142",
+          "comment": "106",
+          "share": "528",
+          "download": "585"
+        },
+        "author": {
+          "id": "6909931212493702149",
+          "fullname": "junsitonub",
+          "nickname": "@   J",
+          "avatar": "https://www.tikwm.com/video/avatar/7465245239595355398.jpeg"
+        }
+      }
+    }
+  },
+  "https://vapis.my.id/api/ttdl?url=": {
+    "exito": true,
+    "datos": {
+      "status": true,
+      "data": {
+        "status": true,
+        "title": "AHRE.        #svt            #seventeen      #fyp      #parati       #contenido        #podercerdito❤️        #foryou         #carat ",
+        "taken_at": "Rabu, 21 Januari  pukul 02.48.57",
+        "region": "MX",
+        "id": "7465245239595355398",
+        "durations": 78,
+        "duration": "78 Seconds",
+        "cover": "https://www.tikwm.com/video/cover/7465245239595355398.webp",
+        "size_nowm": 9469484,
+        "size_nowm_hd": 45365609,
+        "data": [
+          {
+            "type": "nowatermark",
+            "url": "https://www.tikwm.com/video/media/play/7465245239595355398.mp4"
+          },
+          {
+            "type": "nowatermark_hd",
+            "url": "https://www.tikwm.com/video/media/hdplay/7465245239595355398.mp4"
+          }
+        ],
+        "music_info": {
+          "id": "7465245277730966277",
+          "title": "original sound - junsitonub",
+          "author": "@   J",
+          "album": "Unknown",
+          "url": "https://www.tikwm.com/video/music/7465245239595355398.mp3"
+        },
+        "stats": {
+          "views": "45,73 rb",
+          "likes": "17,14 rb",
+          "comment": "106",
+          "share": "528",
+          "download": "585"
+        },
+        "author": {
+          "id": "6909931212493702149",
+          "fullname": "junsitonub",
+          "nickname": "@   J",
+          "avatar": "https://www.tikwm.com/video/avatar/7465245239595355398.jpeg"
+        }
+      }
+    }
+  },
+  "https://vapis.my.id/api/ttdlv2?url=": {
+    "exito": true,
+    "datos": {
+      "status": true,
+      "data": {
+        "type": "video",
+        "uniqueId": "@junsitonub-7465245239595355398",
+        "nickname": "@   J",
+        "profilePic": "https://p16-amd-va.tiktokcdn.com/tos-maliva-avt-0068/4690d0536264e04bd1fbd3092148f843~tplv-tiktokx-cropcenter-q:100:100:q75.jpeg?dr=10794&idc=maliva&nonce=60167&ps=87d6e48a&refresh_token=bce7758cb10569cc03def0ca706466fb&s=AWEME_DETAIL&sc=avatar&shcp=1d1a97fc&shp=45126217&t=223449c4",
+        "username": "@junsitonub",
+        "description": "AHRE.        #svt            #seventeen      #fyp      #parati       #contenido        #podercerdito❤️        #foryou         #carat ",
+        "dlink": {
+          "nowm": "https://v16.tiktokcdn.com/a2873f2f4efd3ebdb97fd4aea7c4edc8/67ba62fe/video/tos/useast2a/tos-useast2a-ve-0068c004/okChjDD4MeefDSzRZDQtSyGEggkFQIP3CIgARb/?a=1233&bti=OTg7QGo5QHM6OjZALTAzYCMvcCMxNDNg&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=1888&bt=944&cs=0&ds=6&ft=pfus3MZj8Zmo06C8ob4jVvQoOKFrKsd.&mime_type=video_mp4&qs=0&rc=aTY0ZGVkOzo0Zjs4ZTZpZEBpM2c2d2w5cmt4eDMzNzczM0AtLWE1NTRjXi4xXl9jMjUzYSNsa2ktMmRrLmBgLS1kMTZzcw%3D%3D&vvpl=1&l=202502212350070FAE3FD0FF9C0753C78D&btag=e00090000&cc=2",
+          "wm": "https://v16.tiktokcdn.com/4014ae13580fcc49b45d007b0a14a3ac/67ba62fe/video/tos/useast2a/tos-useast2a-ve-0068c001/oMejZuNACACIfugHIuG3SPRRMgkGb4jg8LAIea/?a=1233&bti=OTg7QGo5QHM6OjZALTAzYCMvcCMxNDNg&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=1934&bt=967&cs=0&ds=3&ft=pfus3MZj8Zmo06C8ob4jVvQoOKFrKsd.&mime_type=video_mp4&qs=0&rc=NDQ7OjU4OjZnOTk3ZTQzZEBpM2c2d2w5cmt4eDMzNzczM0AxYGBhMmIzNjIxYjBfNjIxYSNsa2ktMmRrLmBgLS1kMTZzcw%3D%3D&vvpl=1&l=202502212350070FAE3FD0FF9C0753C78D&btag=e00090000&cc=2",
+          "audio": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/7465245289772616453.mp3",
+          "profilePic": "https://p16-amd-va.tiktokcdn.com/tos-maliva-avt-0068/4690d0536264e04bd1fbd3092148f843~tplv-tiktokx-cropcenter-q:1080:1080:q75.jpeg?dr=10796&idc=maliva&nonce=48195&ps=87d6e48a&refresh_token=6e7a2f165e1b6c59d4bb02f4b9c84842&s=AWEME_DETAIL&sc=avatar&shcp=1d1a97fc&shp=45126217&t=223449c4",
+          "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/oYQIgfeZ3gzjDAfQARkEAGCS4CMFQhLtPbDD22~tplv-tiktokx-360p.webp?dr=1363&nonce=29133&refresh_token=c603b8a46efb1170726c9a18c2f391af&x-expires=1740265200&x-signature=4Gz27aLjj0NNWj2QhcEPWoJRRg8%3D&biz_tag=tt_video&idc=maliva&ps=d97f9a4f&s=AWEME_DETAIL&sc=cover&shcp=1d1a97fc&shp=d05b14bd&t=bacd0480"
+        },
+        "stats": {
+          "plays": "45.7K",
+          "likes": "0",
+          "comments": "106",
+          "shares": "1923"
+        },
+        "songTitle": "@   J - original sound - junsitonub",
+        "slides": [],
+        "videoInfo": {
+          "nowm": "https://v16.tiktokcdn.com/a2873f2f4efd3ebdb97fd4aea7c4edc8/67ba62fe/video/tos/useast2a/tos-useast2a-ve-0068c004/okChjDD4MeefDSzRZDQtSyGEggkFQIP3CIgARb/?a=1233&bti=OTg7QGo5QHM6OjZALTAzYCMvcCMxNDNg&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=1888&bt=944&cs=0&ds=6&ft=pfus3MZj8Zmo06C8ob4jVvQoOKFrKsd.&mime_type=video_mp4&qs=0&rc=aTY0ZGVkOzo0Zjs4ZTZpZEBpM2c2d2w5cmt4eDMzNzczM0AtLWE1NTRjXi4xXl9jMjUzYSNsa2ktMmRrLmBgLS1kMTZzcw%3D%3D&vvpl=1&l=202502212350070FAE3FD0FF9C0753C78D&btag=e00090000&cc=2",
+          "wm": "https://v16.tiktokcdn.com/4014ae13580fcc49b45d007b0a14a3ac/67ba62fe/video/tos/useast2a/tos-useast2a-ve-0068c001/oMejZuNACACIfugHIuG3SPRRMgkGb4jg8LAIea/?a=1233&bti=OTg7QGo5QHM6OjZALTAzYCMvcCMxNDNg&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=1934&bt=967&cs=0&ds=3&ft=pfus3MZj8Zmo06C8ob4jVvQoOKFrKsd.&mime_type=video_mp4&qs=0&rc=NDQ7OjU4OjZnOTk3ZTQzZEBpM2c2d2w5cmt4eDMzNzczM0AxYGBhMmIzNjIxYjBfNjIxYSNsa2ktMmRrLmBgLS1kMTZzcw%3D%3D&vvpl=1&l=202502212350070FAE3FD0FF9C0753C78D&btag=e00090000&cc=2"
+        }
+      }
+    }
+  }
+}
